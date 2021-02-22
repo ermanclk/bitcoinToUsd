@@ -1,0 +1,60 @@
+{
+	"info": {
+		"_postman_id": "0f24da3f-b5c6-4a7b-8f82-c8686d7030f9",
+		"name": "collections",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/v1/bitcoin/USD",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/v1/bitcoin/USD",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"bitcoin",
+						"USD"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/v1/bitcoin/USD/byDateRange?startDate=2021-02-22T14:10&endDate=2021-02-20T22:30",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/v1/bitcoin/USD/byDateRange?startDate=2021-02-22T14:10&endDate=2021-02-20T22:30",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"bitcoin",
+						"USD",
+						"byDateRange"
+					],
+					"query": [
+						{
+							"key": "startDate",
+							"value": "2021-02-22T14:10"
+						},
+						{
+							"key": "endDate",
+							"value": "2021-02-20T22:30"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
